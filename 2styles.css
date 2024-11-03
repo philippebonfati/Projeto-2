@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.header-1 {
+    margin: 47px 178px 0 42px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.875px;
+    height: 21px;
+    word-spacing: 30px;
+    color: #17233D;
+    }
+.header-2 {
+    width: 124px;
+    height: 51px;
+    border-radius: 1px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    background: rgba(111, 191, 68, 1);
+    border: 10px solid rgba(76, 181, 56, 1);
+    color: #ffffff;
+}
+
+.button-2 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 1px;
+    text-align: left;
+    border: none;
+    color: #6FBF44;
+    margin-top: 20px;
+}
+
+img {
+    display: block;
+    margin-top: 150px;
+    margin-left: 121px;
+    height: 500px;
+    width: 595.18px;
+    float: left;
+  
+
+}   
+
+.wrapper {
+    display: inline-block;    
+    line-height: 33px;
+    display: block;
+    margin-top: 250px;
+    margin-left: 84px;
+    padding: 50px;
+    
+
+    
+}
+
+h1{
+    margin-bottom: 40px;
+    font-size: 62px;
+    font-weight: 600;
+    line-height: 82px;
+    letter-spacing: 0.5961538553237915px;
+    text-align: left;
+    color: #161A49;
+    
+
+}
+
+p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: #4B505A;
+}
+
+.button-1 {
+    
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 1px;
+    text-align: left;
+    border: none;
+    color: #6FBF44;
+    cursor: pointer;
+} 
+
+@media screen and (max-width: 900px) {
+    section {
+        height: 100%;
+        width: 100%;
+    }
+.header-1 {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 0;
+    margin-left: 20px;
+    margin-right: 0.5px;
+
+}
+img {
+   position: static;
+   width: auto;
+}
+
+.header-2 {
+ position:absolute;
+ margin-left: 20px;
+
+    }
+h1 {
+    width: auto;
+    height: 60%;
+    margin: 100px 10px 0 0.9px
+
+}
+p {
+    width: 304px;
+    height: 165px;
+    top: -1242px;
+    left: 100px;
+    gap: 0px;
+    opacity: 0px;
+    position: static;
+
+
+    
+}
+
+
+
+}
